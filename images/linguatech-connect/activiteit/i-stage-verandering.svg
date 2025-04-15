@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-stage-verandering</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-988.000000, -147.000000)" stroke-width="2.09999996">
+            <g id="i-stage-verandering" transform="translate(1000.000000, 158.000000) scale(-1, 1) translate(-1000.000000, -158.000000) translate(990.000000, 149.000000)">
+                <path d="M0.007909316,4.09569231 L16.897397,4.09569231 C18.7370992,4.23578697 20.117488,5.7866017 19.99209,7.57246167 C20.11667,9.3577998 18.736504,10.9077452 16.897397,11.0478462 L3.1026026,11.0478462 C1.2629012,11.1879404 -0.11748844,12.7387554 0.007909316,14.5246151 C-0.116669992,16.3099536 1.26349568,17.8598988 3.1026026,18 L19.99209,18" id="Vector_639-2" stroke="#26A9E0"></path>
+                <path d="M4.27024965,-2.22044605e-15 L0.00790931593,4.09569231 L4.27024965,-2.22044605e-15 Z M0.00790931593,4.09569231 L4.27024965,7.94492308 L0.00790931593,4.09569231 Z" id="Combined-Shape" stroke="#1A2030"></path>
+            </g>
+        </g>
+    </g>
+</svg>

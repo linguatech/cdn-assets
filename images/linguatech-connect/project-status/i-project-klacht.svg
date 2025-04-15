@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-project-klacht</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-652.000000, -385.000000)" stroke="#585858" stroke-width="1.5">
+            <g id="i-project-klacht" transform="translate(653.000000, 386.000000)">
+                <g id="Vector">
+                    <path d="M3.5000997,4.267 L10.5000997,4.267 M4.3750997,6.826 L9.6250997,6.826 M3.66309939,4.09672312e-16 L10.3380998,4.09672312e-16 C12.3756611,0.015406643 14.0150664,1.67943468 14.0000988,3.717 L14.0000988,8.2299994 C14.0072851,9.2086568 13.625396,10.1500822 12.938444,10.8471608 C12.2514927,11.5442396 11.3157563,11.939865 10.3370998,11.947 L3.66309939,11.947 L0,14 L9.96372115e-05,3.717 C-0.00708746497,2.7383433 0.374803189,1.79691764 1.06175452,1.09983909 C1.74870589,0.402760694 2.6844425,0.0071347052 3.66309939,4.09672312e-16 Z" id="Vector-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

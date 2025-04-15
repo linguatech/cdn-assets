@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-account</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-363.000000, -152.000000)" stroke-width="1.5">
+            <g id="i-account" transform="translate(364.000000, 153.000000)">
+                <g id="Vector">
+                    <path d="M7,2 C7,3.10456944 6.10456944,4 5,4 C3.89543052,4 3,3.10456944 3,2 C3,0.89543052 3.89543052,2.0290612e-16 5,0 C6.10456944,6.7635376e-17 7,0.89543052 7,2 Z" id="Vector-15" stroke="#1A2030"></path>
+                    <path d="M10,10.5 C10,12.4329999 7.761,14 5,14 C2.239,14 0,12.4329999 0,10.5 C0,8.56700005 2.239,7 5,7 C7.761,7 10,8.56700005 10,10.5 Z" id="Vector-16" stroke="#26A9E0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

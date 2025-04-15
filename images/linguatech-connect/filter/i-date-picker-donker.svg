@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-date-picker-donker</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-998.000000, -744.000000)" stroke="#1A2030" stroke-width="1.125">
+            <g id="i-date-picker-donker" transform="translate(999.000000, 745.000000)">
+                <path d="M0.785714286,8.24999967 C0.785714286,9.90685357 2.19281944,11.2499995 3.92857159,11.2499995 L8.64285732,11.2499995 C10.378609,11.2499995 11.7857143,9.90685357 11.7857143,8.24999967 L11.7857143,3.74999965 C11.7857143,2.09314533 10.378609,0.749999505 8.64285732,0.749999505 L3.92857159,0.749999505 C2.19281944,0.749999505 0.785714286,2.09314533 0.785714286,3.74999965 M0.785714286,8.2499995 L0.785714286,3.7499995 M0.785714286,8.2499995 L1.57142857,8.2499995 M0.785714286,8.2499995 L-0.785714286,8.2499995 M0.785714286,3.7499995 L1.57142857,3.7499995 M0.785714286,3.7499995 L-0.785714286,3.7499995" id="Vector-5" transform="translate(5.500000, 6.000000) rotate(90.000000) translate(-5.500000, -6.000000) "></path>
+                <polyline id="Vector-6" points="2.35714286 6.75 3.92857143 9 8.64285714 5.25"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

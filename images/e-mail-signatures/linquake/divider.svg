@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="537px" height="31px" viewBox="0 0 537 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>divider</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Email-handtekening" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LinQuake" transform="translate(-74.000000, -1307.000000)">
+            <g id="Group-5" transform="translate(77.000000, 1308.000000)">
+                <g id="divider" transform="translate(0.000000, 2.000000)">
+                    <path d="M3,13 L519,13" id="Line" stroke="#F1F1F1" stroke-linecap="square"></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="5" fill="#EE8C07" cx="12.5" cy="12.5" r="12.5"></circle>
+                    <circle id="Oval-Copy" stroke="#EE8C07" stroke-width="2" cx="526" cy="13" r="7"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

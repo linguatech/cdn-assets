@@ -1,0 +1,501 @@
+<html>
+<head>
+    <meta charset="utf-8" />    
+	
+	<link rel="shortcut icon" type='image/x-icon' href="https://cdn.linguatech.nl/public/images/simplytranslate/logo/favicon/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css" media="all">
+
+    <title>Projectplanning</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="https://cdn.linguatech.nl/public/js/core/linguatech-core.js?v2"></script>
+
+    <script type="text/javascript" src="https://cdn.linguatech.nl/public/js/jquery/jsrender/1.0.7/jsrender.min.js"></script>
+    <script type="text/javascript" src="https://cdn.linguatech.nl/public/js/core/linguatech-jsrender.js"></script>
+</head>
+<body style="background-color:white;">
+<style>
+    body {
+        background-color: rgb(246,248,249) !important;
+    }
+
+    #WeekplanningHolder .table.table-blue tr th {
+        background-color: #484646;
+		color: white;
+		text-transform: uppercase;
+    }
+
+    #WeekplanningHolder .collapse-holder {
+        background-image: url('https://cdn.linguatech.nl/public/images/icons/misc/128/arrow-right.png');
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        background-position: center;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        filter: invert(24%) sepia(17%) saturate(14%) hue-rotate(337deg) brightness(92%) contrast(83%);
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+        #WeekplanningHolder .collapse-holder.collapse-closed {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+    #WeekplanningHolder .project-planning {
+        /*width: 100%;*/
+        margin-bottom: 15px;
+        min-height: 30px;
+        position: relative;
+        background-color: white;
+        border-radius: 3px;
+        padding: 3px 0px;
+        box-shadow: 0px 0px 5px grey;
+        overflow: hidden;
+    }
+
+        #WeekplanningHolder .project-planning .content {
+            overflow: hidden;
+            padding: 0px 15px;
+        }
+
+        #WeekplanningHolder .project-planning .collapse-holder {
+            display: none;
+        }
+
+        #WeekplanningHolder .project-planning.collapsable .collapse-holder {
+            display: inline-block;
+        }
+
+        #WeekplanningHolder .project-planning .status-holder {
+        }
+
+            #WeekplanningHolder .project-planning .status-holder > * {
+                float: left;
+            }
+
+            #WeekplanningHolder .project-planning .status-holder:after {
+                clear: both;
+                display: block;
+                content: ' ';
+            }
+
+            #WeekplanningHolder .project-planning .status-holder .status {
+                width: 25%;
+                height: 6px;
+                border-radius: 10px;
+                margin: 10px 0px;
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-OPENED .status {
+                background-color: red;
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-STARTED .status {
+                background-color: orange;
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-READY .status {
+                background-color: green;
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-QS .status {
+                background-color: #26a8e0;
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-CASCADE .status {
+                background-color: #ff158a;
+            }
+            
+            #WeekplanningHolder .project-planning .status-holder img {
+                height: 16px;
+                margin-left: 10px;
+                margin-top: 4px;
+            }
+
+                #WeekplanningHolder .project-planning .status-holder img.arrow {
+                    cursor: pointer;
+                    width: 16px;
+                }
+
+            #WeekplanningHolder .project-planning .status-holder.status-STARTED img {
+                /*Created with: https://codepen.io/sosuke/pen/Pjoqqp */
+                filter: invert(77%) sepia(34%) saturate(6003%) hue-rotate(358deg) brightness(103%) contrast(108%);
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-OPENED img {
+                /*Created with: https://codepen.io/sosuke/pen/Pjoqqp */
+                filter: invert(25%) sepia(54%) saturate(6896%) hue-rotate(352deg) brightness(97%) contrast(133%);
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-READY img {
+                /*Created with: https://codepen.io/sosuke/pen/Pjoqqp */
+                filter: invert(22%) sepia(84%) saturate(4760%) hue-rotate(117deg) brightness(92%) contrast(103%);
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-QS img {
+                filter: invert(52%) sepia(93%) saturate(707%) hue-rotate(165deg) brightness(92%) contrast(89%);
+            }
+
+            #WeekplanningHolder .project-planning .status-holder.status-CASCADE img {
+                filter: invert(34%) sepia(100%) saturate(5372%) hue-rotate(316deg) brightness(98%) contrast(107%);
+            }
+
+        #WeekplanningHolder .project-planning .btn-top {
+            display: block;
+            border-radius: 0px;
+        }
+
+        #WeekplanningHolder .project-planning .time {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            text-align: right;
+        }
+
+        #WeekplanningHolder .project-planning.closed {
+            opacity: 0.4;
+        }
+
+        #WeekplanningHolder .project-planning .translators ul {
+            padding-left: 0px;
+        }
+
+            #WeekplanningHolder .project-planning .translators ul li {
+                list-style: none;
+            }
+
+                #WeekplanningHolder .project-planning .translators ul li:before {
+                    content: '•';
+                    width: 15px;
+                    display: inline;
+                    vertical-align: top;
+                }
+
+                #WeekplanningHolder .project-planning .translators ul li.status-READY:before {
+                    content: '✓';
+                }
+
+        #WeekplanningHolder .project-planning .translators .provider-name,
+        #WeekplanningHolder .project-planning .translators .provider-name > span {
+            display: inline;
+        }
+
+            #WeekplanningHolder .project-planning .translators .provider-name > span.language {
+                display: inline-block;
+            }
+
+        #WeekplanningHolder .project-planning span {
+            display: inline-block;
+        }
+
+    .top-menu {
+        float: left;
+        margin-top: 5px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+        .top-menu.right {
+            float: right;
+        }
+
+        .top-menu.left img {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .top-menu img {
+            height: 36px;
+            width: 36px;
+            /*Created with: https://codepen.io/sosuke/pen/Pjoqqp */
+            filter: invert(24%) sepia(17%) saturate(14%) hue-rotate(337deg) brightness(92%) contrast(83%);
+        }
+
+        .top-menu a {
+        }
+
+	table.table {
+		font-size: 1em;
+	}
+	
+    .table.table-blue th {
+        width: 18%;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+		text-align: center;
+    }
+
+</style>
+
+<div class="top-menu left">
+    <a href="javascript:previousWeek();">
+        <img src="https://cdn.linguatech.nl/public/images/icons/misc/128/arrow-right.png" />
+    </a>
+</div>
+
+<div class="top-menu left">
+    <select id="BranchSelector" style="min-width:0px;margin-top:0px;" class="form-control">
+        <option value="1" selected="selected">Simply Translate</option>
+        <option value="8">Textwerk</option>
+    </select>
+</div>
+<div class="top-menu right">
+    <a href="javascript:nextWeek()">
+        <img src="https://cdn.linguatech.nl/public/images/icons/misc/128/arrow-right.png" />
+    </a>
+</div>
+
+<h1>
+    Planning week <span id="CurrentWeekField"></span>
+</h1>
+
+<div id="WeekplanningHolder"></div>
+
+<script type="text/x-jsrender" id="WeekplanningTemplate">
+    <table class="table table-blue">
+        <tr>
+            <th>Maandag {{:dateMonday}}</th>
+            <th>Dinsdag {{:dateTuesday}}</th>
+            <th>Woensdag {{:dateWednesday}}</th>
+            <th>Donderdag {{:dateThursday}}</th>
+            <th>Vrijdag {{:dateFriday}}</th>
+        </tr>
+        <tr>
+            <td> <div class="sortable" data-day="1">{{for monday tmpl="#WeekplanningDayTemplate" /}} </div></td>
+            <td> <div class="sortable" data-day="2">{{for tuesday tmpl="#WeekplanningDayTemplate" /}} </div></td>
+            <td> <div class="sortable" data-day="3">{{for wednesday tmpl="#WeekplanningDayTemplate" /}} </div></td>
+            <td> <div class="sortable" data-day="4">{{for thursday tmpl="#WeekplanningDayTemplate" /}} </div></td>
+            <td> <div class="sortable" data-day="5">{{for fridayCombined tmpl="#WeekplanningDayTemplate" /}} </div></td>
+        </tr>
+    </table>
+</script>
+
+<script type="text/x-jsrender" id="WeekplanningDayTemplate">
+    <div class="project-planning {{if isClosed}}closed{{else}}draggable{{/if}}" data-project-id="{{:projectId}}" data-deadline="{{isodateNoShift:deadline}}" data-day="{{:dayOfWeek}}">
+
+
+        <div class="time">
+            {{if isClosed}}
+            {{:clientCountry2Letters}} - {{timeNoShift:deadline}}
+            {{else}}
+            {{:clientCountry2Letters}} - {{timeNoShift:deadline}}
+            <div class="collapse-holder collapse-closed">
+
+            </div>
+            {{/if}}
+        </div>
+
+        <div class="content">
+            {{if !isClosed}}
+            <div class="status-holder status-{{:currentStatus}}">
+                <div class="status"></div>
+                <a href="#" data-loader="true" onclick="progressWorkflowPhase(this, '{{:currentWorkflowPhaseJobIds}}')" title="Huidige jobs afsluiten">
+                    {{if currentStatus == "READY"}}
+                        <img class="arrow" src="https://cdn.linguatech.nl/public/images/icons/misc/128/arrow-right-thick-stop.png" />
+                    {{else}}
+                        <img class="arrow" src="https://cdn.linguatech.nl/public/images/icons/misc/128/arrow-right-thick.png" />
+                    {{/if}}
+                </a>
+            </div>
+            {{else}}
+                <br />
+            {{/if}}
+
+            <a style="color:inherit;text-decoration:underline;" href="javascript:navigateToProject('{{:projectId}}');">{{:id}} - {{:clientName}} </a>
+
+            {{if !isClosed}}
+            <br />PM: {{:projectManager}}
+            {{if hasProofreadingJobs}}
+            <br /><b>Vertalers</b>
+            {{/if}}
+            <br /><span class="translators" style="font-size:0.9em">{{:vertalers}}</span>
+            {{if hasProofreadingJobs}}
+            <br /><b>Proeflezers</b>
+            <br /><span class="translators" style="font-size:0.9em">{{:proeflezers}}</span>
+            {{/if}}
+            {{/if}}
+        </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+    var currentDate = new Date(Date.now());
+    $(function () {
+        currentDate.setDate(currentDate.getDate());
+
+        initializeBranches();
+
+        //refresh the page every hour
+        setTimeout(_linguatechCore.reloadPage, 60 * 60 * 1000);
+        setInterval(loadProjects, 60 * 1000);
+        loadProjects();
+
+        $(document).on("click", "#WeekplanningHolder .collapse-holder", collapseClick);
+    });
+
+    function initializeBranches() {
+        $(document).on("change", "#BranchSelector", branchChanged);
+
+        let brancheCookie = 'simplytranslate-projectplanning-branche';
+
+        let cookieValue = _linguatechCore.getCookie(brancheCookie);
+        if(cookieValue)
+            $("#BranchSelector").val(cookieValue);
+
+        let queryBranch = _linguatechCore.getQueryStringByName("branch");
+        if (queryBranch)
+            $("#BranchSelector").val(queryBranch);
+
+        console.log(`Initialized branch with value: Cookie: ${cookieValue}, Querystring: ${queryBranch}`);
+    }
+
+    function branchChanged() {
+        let brancheCookie = 'simplytranslate-projectplanning-branche';
+
+        let branch = $("#BranchSelector").val();
+        _linguatechCore.setCookie(brancheCookie, branch, 365 * 5);
+        console.log("Save the branch cookie with value " + branch);
+
+        loadProjects();
+    }
+
+    function collapseClick() {
+        let collapseHolder = $(this);
+        let content = collapseHolder.parentsUntil(".project-planning").parent().find(".content");
+        if (collapseHolder.hasClass("collapse-closed")) { // do open the collapsable
+            collapseHolder.addClass("collapse-open");
+            collapseHolder.removeClass("collapse-closed");
+
+            let height = content.attr("data-height");
+            content.animate({ "height": height }, 350);
+
+        } else { // do close the collapsable
+            collapseHolder.removeClass("collapse-open");
+            collapseHolder.addClass("collapse-closed");
+            content.animate({ "height": 145 }, 350);
+        }
+    }
+
+    function nextWeek() {
+        currentDate.setDate(currentDate.getDate() + 7);
+        loadProjects();
+    }
+
+    function previousWeek() {
+        currentDate.setDate(currentDate.getDate() - 7);
+        loadProjects();
+    }
+
+    function loadProjects() {
+        console.log("Load projects");
+        $("#CurrentWeekField").html(ISO8601_week_no(currentDate));
+
+        let date = currentDate.toISOString();
+        let branch = $("#BranchSelector").val();
+				
+        let reportDataUrl = `https://linguatech-api.azure-api.net/integration-rex/Report/Project/ProjectPlanning/${date}/${branch}?subscription-key=4482a7d5955b4c57ab0c126eb8ad3e0b`;
+
+        $.ajax({
+            type: "GET",
+            url: reportDataUrl,
+            dataType: 'json',
+            success: function (result) {
+                console.log("Projects received");
+
+                $("#WeekplanningHolder").html($("#WeekplanningTemplate").render(result));
+                _linguatechCore.alignAllWidthInContainer(".project-planning ul", "span.language");
+                initializeHeights();
+            },
+            error: function (result) {
+                console.log("Failed receiving projects");
+                ("Het ophalen van de REX projecten is mislukt.");
+            }
+        });
+    }
+
+    function initializeHeights() {
+        var maxHeight = 165;
+        $(".project-planning").each(function (i, o) {
+
+            if ($(o).hasClass("closed")) {
+                return;
+            }
+
+            var content = $(o).find(".content");
+            var height = $(content).outerHeight();
+            $(content).attr("data-height", height);
+            if (height > maxHeight) {
+                $(o).addClass("collapsable");
+                $(content).css("min-height", `${maxHeight}px`);
+                $(content).css("height", `${maxHeight}px`);
+            }
+        });
+    }
+
+    function progressWorkflowPhase(self, jobIds) {
+        var ApiKey = '?subscription-key=4482a7d5955b4c57ab0c126eb8ad3e0b';
+        jobIds.split(',').forEach((id) => {
+            $.ajax({
+                url: `https://linguatech-api.azure-api.net/integration-rex/jobs/${id}/status${ApiKey}`,
+                type: 'PUT',
+                data: 'ready'
+            });
+        }); 
+        loadProjects();
+    }
+
+
+    function navigateToProject(projectId)
+    {
+        let ctrlIsPressed = pressedKeys["17"];
+        var action = "navigate";
+        if (ctrlIsPressed) {
+            action = "navigate-new-window";
+        }
+
+        let url = `https://simplytranslate.s.xtrf.eu/xtrf/faces/projectAssistant/projects/project.seam?assistedProjectId=${projectId}#/project` ;
+        let obj = {
+            action: action,
+            url: url
+        };
+
+        let json = JSON.stringify(obj);
+        console.log("Posting message: " + json);
+        window.parent.postMessage(json, '*');
+    }
+
+    var pressedKeys = {};
+    window.onkeyup = function (e) { pressedKeys[e.keyCode] = false; }
+    window.onkeydown = function (e) { pressedKeys[e.keyCode] = true; }
+
+    function ISO8601_week_no(dt) {
+        var dtNoGmt = new Date(Date.UTC(dt.getFullYear(), dt.getMonth(), dt.getDate(), dt.getHours(), dt.getMinutes(), dt.getSeconds()));
+        var tdt = new Date(dtNoGmt.valueOf());
+
+        var dayn = (dtNoGmt.getDay() + 6) % 7;
+        tdt.setDate(tdt.getDate() - dayn + 3);
+        var firstThursday = tdt.valueOf();
+        tdt.setMonth(0, 1);
+        if (tdt.getDay() !== 4) {
+            tdt.setMonth(0, 1 + ((4 - tdt.getDay()) + 7) % 7);
+        }
+        return 1 + Math.ceil((firstThursday - tdt) / 604800000);
+    }
+
+</script>
+</body>
+</html>

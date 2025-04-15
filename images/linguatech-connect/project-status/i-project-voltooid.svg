@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-project-voltooid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-652.000000, -327.000000)" stroke="#26B17F" stroke-width="1.5">
+            <g id="i-project-voltooid" transform="translate(653.000000, 328.000000)">
+                <path d="M0,7.00018715 C0.000240949207,3.66068118 2.35944468,0.786390356 5.63482669,0.135104022 C8.91020856,-0.516182311 12.1895375,1.23692648 13.4673214,4.32230654 C14.745104,7.40768674 13.6654652,10.9660248 10.888663,12.8211984 C8.1118606,14.6763715 4.4112667,14.3116966 2.04999997,11.950187 C0.737276032,10.6373296 -0.000133953417,8.8567542 0,7.00018715 Z" id="Vector-59"></path>
+                <polyline id="Vector-60" points="3.5 7.000187 5.83300004 9.333187 10.5 4.667187"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

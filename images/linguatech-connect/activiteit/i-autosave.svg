@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="23px" viewBox="0 0 18 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-autosave</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-945.000000, -293.000000)" stroke-width="2.10600001">
+            <g id="i-autosave" transform="translate(947.000000, 295.000000)">
+                <path d="M9.33333333,2.375 C9.33333333,1.06332372 8.28866435,8.0317009e-17 7,0 C5.71133561,-8.0317009e-17 4.66666667,1.06332372 4.66666667,2.375 L9.33333333,2.375 Z" id="Vector-4" stroke="#26A9E0"></path>
+                <path d="M9.5454548,2.37629504 L11.6670911,2.37629504 C12.9130302,2.33271059 13.9564488,3.39461204 14,4.7505293 L14,16.6230856 C13.9571327,17.9795501 12.9135098,19.0422791 11.6670911,18.998705 L2.33290904,18.998705 C1.08697008,19.0422891 0.043551718,17.9803888 0,16.6244711 L0,4.7505293 C0.043551718,3.39461204 1.08697008,2.33271059 2.33290904,2.37629504 L4.4545452,2.37629504" id="Vector-5" stroke="#26A9E0"></path>
+                <polyline id="Vector-5-path" stroke="#1A2030" points="3.5 11.28125 6.22222228 14.25 11.6666667 8.3125"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

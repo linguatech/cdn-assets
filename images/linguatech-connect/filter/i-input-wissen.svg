@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-input-wissen</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-1037.000000, -777.000000)" stroke="#929496" stroke-width="1.125">
+            <g id="i-input-wissen" transform="translate(1038.000000, 778.000000)">
+                <path d="M0,5.13347057 C0.000176696085,2.68449954 1.73025943,0.576686261 4.13220624,0.099076283 C6.53415295,-0.378533695 8.93899418,0.907079419 9.87603573,3.16969146 C10.8130762,5.43230361 10.0213412,8.04175152 7.98501957,9.40221213 C5.94869777,10.7626724 3.23492892,10.4952442 1.50333331,8.76347044 C0.54066909,7.80070838 -9.82325055e-05,6.49495308 0,5.13347057 Z" id="Vector-45"></path>
+                <path d="M3.20833333,7.05773713 L5.13333333,5.13347047 M5.13333333,5.13347047 L7.0576,3.20773713 M5.13333333,5.13347047 L7.05833333,7.05773713 M5.13333333,5.13347047 L3.20833333,3.20773713" id="Vector-46"></path>
+            </g>
+        </g>
+    </g>
+</svg>

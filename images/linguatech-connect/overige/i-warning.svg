@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Vector</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Iconen" transform="translate(-571.000000, -869.000000)" stroke="#DB3C3C" stroke-width="1.5">
+            <g id="Vector" transform="translate(572.000000, 870.000000)">
+                <g id="Group_8551">
+                    <path d="M15.6586102,10.4929794 L9.84261076,1.04498029 C9.45893901,0.397235405 8.76195836,-1.89742492e-15 8.00911172,-1.7763568e-15 C7.25626492,-1.65529208e-15 6.55928443,0.397235405 6.17561171,1.04498029 L0.358612008,10.4929794 C-0.0812419659,11.1816953 -0.119059638,12.053091 0.259473919,12.7773225 C0.638007477,13.5015548 1.3750496,13.967955 2.1916118,13.99998 L13.8256104,13.99998 C14.6421732,13.967955 15.3792154,13.5015548 15.7577488,12.7773225 C16.1362822,12.053091 16.098464,11.1816953 15.6586102,10.4929794 Z" id="vector-46" stroke-linejoin="round"></path>
+                    <path d="M8.0086117,2.99998 L8.0086117,7.99998" id="Vector-47" transform="translate(8.008612, 5.499980) rotate(180.000000) translate(-8.008612, -5.499980) "></path>
+                </g>
+                <path d="M8.008606,10 L8.008606,11" id="Vector-48" transform="translate(8.008606, 10.500000) rotate(180.000000) translate(-8.008606, -10.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

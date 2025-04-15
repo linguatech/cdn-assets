@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-projecten-passive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconen" transform="translate(-101.000000, -284.000000)">
+            <g id="i-projecten-passive" transform="translate(101.000000, 284.000000)">
+                <rect id="Rectangle-Copy-3" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="20" height="17"></rect>
+                <path d="M7.30799992,1.00000765 L12.8289996,1.00000765 C12.8863338,1.00000765 12.9433334,1.00367431 13.0000002,1.01100765 C15.2473322,1.16816833 16.9923906,3.03319983 17,5.28600754 L17,11.7150072 C16.9917296,14.0870976 15.0641004,16.0044355 12.6919998,16.0000069 L7.30799992,16.0000069 C4.93551078,16.004434 3.00772027,14.0864886 3,11.7140067 L3,5.28600754 C3.00772027,2.91352671 4.93551078,0.995581144 7.30799992,1.00000765 Z" id="file-edit" stroke="#929496" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M7.71400691,4.12902066 L6.22300703,5.32902062 C6.07898268,5.46627159 5.99797573,5.65686989 5.99911148,5.85581586 C6.00024724,6.054762 6.08342504,6.24442292 6.22900703,6.38002057 L7.19200693,7.5390207 L11.2180069,12.3800208 C11.2851125,12.457983 11.3750091,12.5129003 11.4750069,12.5370203 L13.4750067,12.9940208 C13.7394564,13.0090037 13.9697057,12.8151548 14.0000067,12.5520207 L13.9070066,10.6060209 C13.9001333,10.5061342 13.859998,10.4114291 13.7930068,10.3370208 L9.86000698,5.60702072 L8.80000698,4.33402068 C8.54481277,3.99621767 8.07478396,3.90749213 7.71400691,4.12902066 Z" id="file-edit-2" stroke="#929496" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M17.0000013,5.32598633 L13.0000013,5.32598633 L13.0000013,1.01098633 M9.8600013,5.61098633 C9.64059981,6.87046533 8.45641711,7.72487013 7.1920013,7.53598628" id="file-edit-3" stroke="#929496" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

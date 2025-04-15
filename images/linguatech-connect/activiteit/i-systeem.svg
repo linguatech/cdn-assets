@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="21px" viewBox="0 0 23 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-systeem</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-938.000000, -147.000000)" stroke-width="1.99650011">
+            <g id="i-systeem" transform="translate(939.000000, 148.000000)">
+                <path d="M18.865875,1.38167647 L18.865875,6.83871356 L21,9.03862834 M13.125,18.9999943 L13.125,16.5842953 C13.125,15.085246 11.9497474,13.8700265 10.5,13.8700265 C9.05025256,13.8700265 7.875,15.085246 7.875,16.5842953 L7.875,18.9999943" id="Vector-8" stroke="#1A2030"></path>
+                <path d="M18.8566876,14.7005934 L18.8645625,6.8387137 L13.453125,1.2608916 C11.8200625,-0.420297214 9.17993717,-0.420297214 7.54687507,1.2608916 L2.14725,6.82514257 L2.14725,14.696522 C2.15159543,17.0772323 4.02121158,19.0037468 6.32362501,18.9999943 L14.680312,18.9999943 C16.9811917,19.0037487 18.8501722,17.0797118 18.8566876,14.7005934 Z" id="Vector-7" stroke="#26A9E0"></path>
+                <path d="M2.14725,6.82514226 L0,9.03862834" id="Vector-8-path" stroke="#26A9E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

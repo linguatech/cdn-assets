@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-aanpassen</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconen" transform="translate(-466.000000, -712.000000)" fill="#1A2030" fill-rule="nonzero">
+            <g id="i-aanpassen" transform="translate(466.000000, 712.000000)">
+                <path d="M0,8.83696536 L0,10.6944866 C0,10.8655741 0.134425774,11 0.305513123,11 L2.16303291,11 C2.24246632,11 2.32189974,10.9694487 2.3768921,10.908346 L9.04929871,4.24204431 L6.75795028,1.95069406 L0.091653937,8.61699573 C0.0305513123,8.67809841 0,8.75142162 0,8.83696536 Z M10.8212748,2.47006678 C11.0595751,2.23176635 11.0595751,1.84681951 10.8212748,1.60851908 L9.39147341,0.178716525 C9.27731444,0.064300135 9.12232712,0 8.9606999,0 C8.79907268,0 8.64408537,0.064300135 8.5299264,0.178716525 L7.41174837,1.29689545 L9.70309679,3.58824571 L10.8212748,2.47006678 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

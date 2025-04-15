@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-dashboard-hover-active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconen" transform="translate(-151.000000, -152.000000)">
+            <g id="i-dashboard-hover-active" transform="translate(151.000000, 152.000000)">
+                <rect id="Rectangle" fill-opacity="0.01" fill="#FFFFFF" x="0.515979943" y="0.36087196" width="20" height="17"></rect>
+                <path d="M16.475625,3.0180774 L16.475625,7.0390521 L18,8.66004194 M12.375,15.9999958 L12.375,14.220007 C12.375,13.1154444 11.5355339,12.2200196 10.5,12.2200196 C9.46446611,12.2200196 8.625,13.1154444 8.625,14.220007 L8.625,15.9999958" id="Vector-8" stroke="#1A2030" stroke-width="1.45744512" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16.4690626,12.8320162 L16.4746875,7.0390522 L12.609375,2.92907802 C11.4429018,1.69030732 9.55709798,1.69030732 8.39062505,2.92907802 L4.53375,7.02905242 L4.53375,12.8290162 C4.53685388,14.5832238 5.87229399,16.0027608 7.51687501,15.9999958 L13.4859371,15.9999958 C15.1294227,16.0027622 16.4644087,14.5850508 16.4690626,12.8320162 Z" id="Vector-7" stroke="#26A9E0" stroke-width="1.45744512" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4.53375,7.02905219 L3,8.66004194" id="Vector-8-path" stroke="#26A9E0" stroke-width="1.45744512" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

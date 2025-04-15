@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconen" transform="translate(-465.000000, -748.000000)" fill="#26A9E0" fill-rule="nonzero">
+            <g id="i-plus" transform="translate(465.000000, 748.000000)">
+                <path d="M7,0 C3.136,0 0,3.136 0,7 C0,10.864 3.136,14 7,14 C10.864,14 14,10.864 14,7 C14,3.136 10.864,0 7,0 Z M9.8,7.7 L7.7,7.7 L7.7,9.8 C7.7,10.185 7.385,10.5 7,10.5 C6.615,10.5 6.3,10.185 6.3,9.8 L6.3,7.7 L4.2,7.7 C3.815,7.7 3.5,7.385 3.5,7 C3.5,6.615 3.815,6.3 4.2,6.3 L6.3,6.3 L6.3,4.2 C6.3,3.815 6.615,3.5 7,3.5 C7.385,3.5 7.7,3.815 7.7,4.2 L7.7,6.3 L9.8,6.3 C10.185,6.3 10.5,6.615 10.5,7 C10.5,7.385 10.185,7.7 9.8,7.7 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

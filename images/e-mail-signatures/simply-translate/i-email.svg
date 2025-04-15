@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-email</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Email-handtekening" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Simply-Translate" transform="translate(-80.000000, -1386.000000)" stroke="#1A2030" stroke-width="0.9">
+            <g id="Group-5" transform="translate(80.000000, 1308.000000)">
+                <g id="Group-11" transform="translate(0.000000, 47.000000)">
+                    <g id="Group-2">
+                        <g id="i-email" transform="translate(0.500000, 32.000000)">
+                            <path d="M0,4.854105 C0,3.95199 0,3.5009325 0.224025,3.1384575 C0.44805,2.775975 0.8514825,2.574255 1.6583625,2.1708225 L4.6583625,0.6708225 C5.31672,0.34164 5.645895,0.1770525 6,0.1770525 C6.354105,0.1770525 6.68328,0.34164 7.341675,0.6708225 L10.341675,2.1708225 C11.148525,2.574255 11.55195,2.775975 11.775975,3.1384575 C12,3.5009325 12,3.95199 12,4.854105 L12,9 C12,10.4142 12,11.1213 11.56065,11.56065 C11.1213,12 10.4142,12 9,12 L3,12 C1.585785,12 0.8786775,12 0.4393425,11.56065 C0,11.1213 0,10.4142 0,9 L0,4.854105 Z" id="Path"></path>
+                            <path d="M1.8106575,7.06065 L0,5.25 L0,10.5 C0,11.32845 0.6715725,12 1.5,12 L10.5,12 C11.32845,12 12,11.32845 12,10.5 L12,5.25 L10.18935,7.06065 C9.908025,7.341975 9.5265,7.5 9.1287,7.5 L2.8713225,7.5 C2.4734925,7.5 2.0919675,7.341975 1.8106575,7.06065 Z" id="Path" fill="#26A9E0" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

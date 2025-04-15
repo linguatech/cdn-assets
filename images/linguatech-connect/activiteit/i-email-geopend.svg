@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-email-geopend</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-992.000000, -292.000000)" stroke-width="2.09999996">
+            <g id="i-email-geopend" transform="translate(994.000000, 294.000000)">
+                <path d="M0.0382509379,6.66337256 L7.03169047,10.7636815 C8.85911538,11.860027 11.1394311,11.860027 12.9668566,10.7636815 L19.9602962,6.66337256 M12.8486373,5.71044361 L9.99998571,4.99610406 L7.15133408,5.71044361" id="Vector-2" stroke="#1A2030"></path>
+                <path d="M5.727022,19.997224 C2.6918876,20.09274 0.151391606,17.708018 0.045386832,14.663964 L0.045386832,9.3292766 L0.038265204,6.6633612 C-0.144691886,5.697544 0.3411572,4.7287336 1.22330428,4.300326 L6.9847024,0.85292346 C8.835038,-0.28430782 11.164962,-0.28430782 13.015298,0.85292346 L18.776696,4.3046122 C19.6588432,4.7330198 20.144692,5.7018304 19.961735,6.6676474 L19.954614,9.334991 L19.954614,14.66825 C19.846314,17.710608 17.306503,20.092772 14.2729772,19.997224 L5.727022,19.997224 Z" id="Vector" stroke="#26A9E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

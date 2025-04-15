@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-project-ter-controle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-652.000000, -240.000000)" stroke="#26A9E0" stroke-width="1.5">
+            <g id="i-project-ter-controle" transform="translate(653.000000, 241.000000)">
+                <g id="Vector">
+                    <g id="Group_2149">
+                        <path d="M4.46182405e-06,6.49302943 C0.00363500734,3.39225814 2.19698353,0.725793966 5.23883078,0.124163165 C8.28067828,-0.477467635 11.3239481,1.15327374 12.5076997,4.01919907 C13.691451,6.88512363 12.6860398,10.1881464 10.1062693,11.908489 C7.52649839,13.6288303 4.09076726,13.2874215 1.90000456,11.0930299 C0.681480534,9.87248754 -0.00201488354,8.2177084 4.46182405e-06,6.49302943 Z" id="Vector-7"></path>
+                        <path d="M10.562004,11.568029 L14.000004,14.993029" id="Vector-8"></path>
+                    </g>
+                    <polyline id="Vector-60" points="4 6.5 5.6664286 8 9 5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

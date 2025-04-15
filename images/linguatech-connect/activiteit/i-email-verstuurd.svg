@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i-email-verstuurd</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Intern-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iconen" transform="translate(-994.000000, -343.000000)" stroke-width="1.93499994">
+            <g id="i-email-verstuurd" transform="translate(995.000000, 344.000000)">
+                <path d="M19,5.14415766 L12.3322673,9.09639591 C10.5877912,10.1535039 8.4122082,10.1535039 6.66773346,9.09639591 L0,5.14415766" id="Rectangle_1557-path" stroke="#1A2030"></path>
+                <path d="M19,5.14415766 C18.8968452,2.20472733 16.4681447,-0.0952181011 13.5710665,0.00303428603 L5.42893346,0.00303428603 C2.53185526,-0.0952181011 0.10315442,2.20472733 0,5.14415766 M19,5.14415766 L19,12.8558419 C18.8968452,15.7952715 16.4681447,18.0952168 13.5710665,17.9969644 L5.42893346,17.9969644 C2.53185526,18.0952168 0.10315442,15.7952715 0,12.8558419 L0,5.14415766" id="Rectangle_1557" stroke="#26A9E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>
